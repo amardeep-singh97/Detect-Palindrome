@@ -1,4 +1,8 @@
- public  boolean detect_palindrome(String words){
+char[] array;
+int pos;
+boolean universal;
+
+public  boolean detect_palindrome(String words){
         String a = null;
         array = new char[words.length()+1];
         array = words.toCharArray();
